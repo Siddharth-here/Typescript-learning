@@ -37,11 +37,16 @@ class InMemoryDB {
         return data.id
     }
 
-    public updateUser(id: UserID, updateData: Omit<User, 'id'>):boolean {
+    public updateUser(id: UserID, updateData: Omit<User, 'id'>): boolean {
         if (!this._db.has(id)) throw new Error(`User with ID ${id} does not exist`)
         this._db.set(id, { ...updateData, id })
-    return true
+        return true
 
+    }
+
+    public getUserById(id: UserID): User {
+        if (!this._db.has(id)) throw new Error("User with ID ${id} does not exist");
+        return this._db.get(id)!
     }
 }
 
