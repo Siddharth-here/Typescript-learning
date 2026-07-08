@@ -1,1 +1,19 @@
 1. Typescript- JavaScript with type checking
+
+2.TS is previously known as scriptsharp(script#).
+
+3.Typescript was born in 2012.
+
+4.Typescript checks your code for mistakes, compiles it and helps you to write better code all at once.
+
+5.Typescript is work easier, less error prone.
+
+// Statically typed and dynamically typed
+
+6.In Statically typed languages the type variable is set at compile-time and cannot change later.
+
+7.In dynamically typed languages, the type of variables is determined at runtime and can change later.
+
+//Drawbacks of Typescript
+
+8.Browsers don’t understand TypeScript code. So we need to use the TypeScript compiler to compile and translate (or transpile) our TypeScript code into regular JavaScript for execution by browsers.
