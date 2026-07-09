@@ -10,7 +10,7 @@
     "types": ["bun"],
 
     "outDir": "./dist",
-    "rootDir": "/src",
+    "rootDir": "./src",
 
     // Bundler mode
     "moduleResolution": "bundler",
@@ -24,9 +24,10 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "noImplicitAny": true,
 
     // Some stricter flags (disabled by default)
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },

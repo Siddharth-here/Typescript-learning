@@ -17,3 +17,5 @@
 //Drawbacks of Typescript
 
 8.Browsers don’t understand TypeScript code. So we need to use the TypeScript compiler to compile and translate (or transpile) our TypeScript code into regular JavaScript for execution by browsers.
+
+//Datatypes

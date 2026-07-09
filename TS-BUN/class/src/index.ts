@@ -1,5 +1,2 @@
-function greet(name: string) {
-    return `hello, ${name}`
 
-}
-console.log(greet("siddharth"));
+console.log("siddharth");
